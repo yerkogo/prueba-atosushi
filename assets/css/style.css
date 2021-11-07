@@ -70,11 +70,15 @@ main {
   width: 16rem;
 }
 
+.cardfont {
+  color:#373a3C;
+}
+
 .bg-section2 {
   background-color: #101010;
 }
 
-/* MODAL*/
+/*  ESTILOS MODAL*/
 
 .modal-content{
   height: 100%;
