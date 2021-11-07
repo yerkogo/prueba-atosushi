@@ -1,0 +1,150 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body * {
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+}
+
+body {
+  background-color: #000000;
+  
+}
+
+.mainNav:hover {
+  color: #e11725!important;
+}
+
+a:hover {
+  color: #e11725!important;
+}
+
+.fas {
+  color: #e11725!important;
+}
+
+.fab:hover {
+  color: #e11725!important;
+}
+
+main {
+  margin-top: 104px;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.navbar-brand {
+  font-family: "lobster", cursive;
+  font-size: 29px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
+}
+
+.backimage1 {
+  background-image: url('/assets/img/banner1.jpg');
+}
+
+.backimage2 {
+  background-image: url('/assets/img/banner2.jpg');
+}
+
+.backimage3 {
+  background-image: url('/assets/img/banner3.jpg');
+}
+
+.card { 
+  width: 16rem;
+}
+
+.bg-section2 {
+  background-color: #101010;
+}
+
+@media (max-width: 386px) {
+  main {
+    margin-top: 81px;
+    width: 103%;
+  }
+}
+
+@media (max-width: 575px) {
+  .card {
+    margin: auto;
+  }
+}
+
+@media (max-width: 386px) {
+  .logomobile {
+    width: 196px;
+  }
+}
+
+
+@media(max-width:768px) {
+  .title {
+    font-size: 25pt !important;
+    text-align: center;
+  }
+
+}
+
+
+
+/* MODAL*/
+
+.modal-content{
+  height: 100%;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.imagen4 {
+  width: 100%;
+}
+
+.imagen3 {
+  width: 100%;
+}
+
+.imagen2 {
+  width: 100%;
+}
+
+.imagen1 {
+  width: 100%;
+}
+
+.imagen4:hover{
+  cursor: pointer;
+  width: 100%;
+}
+
+.imagen3:hover{
+  cursor: pointer;
+  width: 100%;
+}
+
+.imagen2:hover{
+  cursor: pointer;
+  width: 100%;
+}
+
+.imagen1:hover{
+  cursor: pointer;
+  width: 100%;
+}
