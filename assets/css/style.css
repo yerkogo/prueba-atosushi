@@ -16,19 +16,19 @@ body {
 }
 
 .mainNav:hover {
-  color: #e11725!important;
+  color: #e11725 !important;
 }
 
 a:hover {
-  color: #e11725!important;
+  color: #e11725 !important;
 }
 
 .fas {
-  color: #e11725!important;
+  color: #e11725 !important;
 }
 
 .fab:hover {
-  color: #e11725!important;
+  color: #e11725 !important;
 }
 
 main {
@@ -66,12 +66,12 @@ main {
   background-image: url('../img/banner3.jpg');
 }
 
-.card { 
+.card {
   width: 16rem;
 }
 
 .cardfont {
-  color:#373a3C;
+  color: #373a3C;
 }
 
 .bg-section2 {
@@ -80,7 +80,7 @@ main {
 
 /*  ESTILOS MODAL*/
 
-.modal-content{
+.modal-content {
   height: 100%;
   margin-top: 100px;
   width: 100%;
@@ -102,24 +102,29 @@ main {
   width: 100%;
 }
 
-.imagen4:hover{
+.imagen4:hover {
   cursor: pointer;
   width: 100%;
 }
 
-.imagen3:hover{
+.imagen3:hover {
   cursor: pointer;
   width: 100%;
 }
 
-.imagen2:hover{
+.imagen2:hover {
   cursor: pointer;
   width: 100%;
 }
 
-.imagen1:hover{
+.imagen1:hover {
   cursor: pointer;
   width: 100%;
+}
+
+#footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 @media(max-width:768px) {
