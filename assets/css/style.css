@@ -13,7 +13,6 @@ body * {
 
 body {
   background-color: #000000;
-  
 }
 
 .mainNav:hover {
@@ -75,36 +74,6 @@ main {
   background-color: #101010;
 }
 
-@media (max-width: 386px) {
-  main {
-    margin-top: 81px;
-    width: 103%;
-  }
-}
-
-@media (max-width: 575px) {
-  .card {
-    margin: auto;
-  }
-}
-
-@media (max-width: 386px) {
-  .logomobile {
-    width: 196px;
-  }
-}
-
-
-@media(max-width:768px) {
-  .title {
-    font-size: 25pt !important;
-    text-align: center;
-  }
-
-}
-
-
-
 /* MODAL*/
 
 .modal-content{
@@ -147,4 +116,30 @@ main {
 .imagen1:hover{
   cursor: pointer;
   width: 100%;
+}
+
+@media(max-width:768px) {
+  .title {
+    font-size: 25pt !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .card {
+    margin: auto;
+  }
+}
+
+@media (max-width: 386px) {
+  main {
+    margin-top: 81px;
+    width: 103%;
+  }
+}
+
+@media (max-width: 386px) {
+  .logomobile {
+    width: 196px;
+  }
 }
